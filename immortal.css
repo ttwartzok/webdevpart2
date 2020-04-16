@@ -1,3 +1,7 @@
+a:hover {
+color: #e7836e;
+}
+
 article {
 margin-left: 20%;
 margin-top: 10px;
@@ -29,11 +33,12 @@ bottom: 0;
 height: 2.5rem;
 width: 100%;
 padding: 6px;
+text-align: center;
 }
 
 h1 {
 margin: 0px;
-font-family: Impact;
+/* font-family: Impact; */
 }
 
 header {
@@ -41,13 +46,31 @@ padding: 16px;
 background-color: #e7836e;
 width: 100%;
 margin: 0px;
+box-sizing: border-box;
 }
+
+input[type=submit] {
+  background-color: #e7836e;
+  color: black;
+  cursor: pointer;
+}
+
+/*
+input[type=submit]:hover {
+  background-color: #e7836e;
+}
+*/
 
 nav {
     background-color: #a9a9a9;
     padding: 6px;
     width: 100%;
     border: 1px solid black;
+    box-sizing: border-box;
+}
+
+p {
+margin: 0px;
 }
 
 .a {
@@ -66,6 +89,14 @@ background-color: #e7836e;
 width: 100%;
 }
 
+.bottom-container {
+    position:fixed;
+    left: 25%;
+    width: 50%;
+  text-align: center;
+  background-color: white;
+}
+
 .carTile {
 margin: 0px;
 padding: 4px;
@@ -77,8 +108,21 @@ border: 3px solid black;
 text-align: center;
 }
 
-.h5 {
-color: green;
+.container {
+  position: relative;
+  box-sizing: border-box;
+}
+
+.container input {
+  width: 100%;
+  padding: 12px;
+  margin: 5px 0;
+  opacity: 0.85;
+  display: inline-block;
+  font-size: 15px;
+  line-height: 20px;
+  text-decoration: none;
+  box-sizing: border-box;
 }
 
 .headerSub {
@@ -99,6 +143,23 @@ text-align: left;
 color: black;
 }
 
+.loginInfo {
+  width: 20%;
+  margin: auto;
+}
+
+.loginButton {
+width: 10%;
+margin: auto;
+}
+
+.otherlink {
+  display: inline-block;
+  font-size: 15px;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
 .productImage {
 width: 400px;
 margin: 0px;
@@ -113,7 +174,6 @@ width: 100%;
 .title-header {
 margin: 0px;
 padding: 10px;
-color: green;
 }
 
 
