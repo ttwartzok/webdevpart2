@@ -4,6 +4,25 @@
 <head>
     <title>Products</title>
     <link rel="stylesheet" type="text/css" href="immortal.css">
+<style>
+        .frame {
+          height: 1200px;
+          width: 1200px;
+          overflow: hidden;
+        }
+        .zoomin img {
+          height: 300px;
+          width: 300px;
+          -webkit-transition: all 3s ease;
+          -moz-transition: all 3s ease;
+          -ms-transition: all 3s ease;
+          transition: all 3s ease;
+        }
+        .zoomin img:hover {
+          width: 400px;
+          height: 400px;
+        }
+    </style> 
 </head>
 
 <body>
@@ -21,10 +40,11 @@
 
 
 </nav>
-
+<div class = "zoomin frame">
 <article class="centered">
-    <img src="/immortal/images/kitt.jpg" class="productImage">
+    <img src="images/kitt.jpg" class= "productImage">
 </article>
+
 
 <aside class="centered">
     <h3>KITT</h3>
@@ -35,9 +55,9 @@
         <li>test</li>
     </ul>
     <h4>$4000</h4>
-    <input type="button" onclick="location.href='/payment.html'" value="Purchase">
+    <input type="button" onclick="location.href='/payment.html'" value="Purchase" color = "red">
 </aside>
-
+</div>
 <footer>
     <p>2020 Immortal Cars</p>
 </footer>
