@@ -2,6 +2,14 @@ a:hover {
 color: #e7836e;
 }
 
+a.show:hover {
+color: white;
+}
+
+a.title:hover{
+color: black;
+}
+
 article {
 margin-left: 20%;
 margin-top: 10px;
@@ -85,32 +93,41 @@ margin: 0px;
 */
 
 .background {
-background-color: #e7836e;
-width: 100%;
+   background-color: #e7836e;
+   width: 100%;
 }
 
 .bottom-container {
-    position:fixed;
-    left: 25%;
-    width: 50%;
+  position:fixed;
+  left: 25%;
+  width: 50%;
   text-align: center;
   background-color: white;
 }
 
+.buttonpos{
+  text-align: right;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
 .carTile {
-margin: 0px;
-padding: 4px;
-background-color: grey;
-border: 3px solid black;
+  margin: 0px;
+  padding: 4px;
+  background-color: grey;
+  border: 3px solid black;
 }
 
 .centered {
-text-align: center;
+  text-align: center;
 }
 
 .container {
   position: relative;
   box-sizing: border-box;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 .container input {
@@ -125,6 +142,31 @@ text-align: center;
   box-sizing: border-box;
 }
 
+.feedback{
+  border-radius: 5px;
+  padding: 20px;
+}
+
+textarea {
+  width: 100%;
+  padding: 12px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: auto;
+  overflow: scroll;
+}
+
+
+.feedback input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
 .headerSub {
 margin-top: 0px;
 }
@@ -135,12 +177,18 @@ margin-top: 0px;
     border: 3px solid black;
 }
 
+.inputInfo {
+width: 30%;
+margin: auto;
+}
+
 .left-text {
 text-align: left;
 }
 
 .link {
 color: black;
+text-decoration: none;
 }
 
 .loginInfo {
