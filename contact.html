@@ -30,6 +30,7 @@
 			border: 1px solid black;
 		}
 		a{
+			text-decoration: none;
 			color: black;
 		}
 		
@@ -49,6 +50,8 @@
 			width: 100%;
 			padding: 6px;
 			text-align: center;
+			position: absolute;
+  			bottom: 0;
 		}
         h1{
 			margin: 0px;
@@ -56,12 +59,31 @@
 		body{
 			padding: 0;
 			margin: 0;
-            background-color: white;
+            background-color: #f2f2f2;
 
 		}
 		h5{
 			color: green;
 		}
+        
+        
+        
+.mainText{
+  padding: 20px;
+  text-align: center;
+}
+
+.link {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+
 
     </style>
 <title>About US</title>
@@ -69,19 +91,18 @@
 
 <body/*bgcolor="#a9a9a9"*/>
 <header>
-    <h1><a href="/index.html">Immortal Cars</a></h1>
+    <h1><a href="index.html">Immortal Cars</a></h1>
     <strong style="margin-top: 0px;">the cars of your dreams</strong>
 </header>
       <nav>
-          <a href="/hotdeal.html">Hot Deal</a> |
-            <a href="/about.html">About us</a> |
-          <a href="/contact.html">Contact Us</a> |
+          <a href="hotdeal.html">Hot Deal</a> |
+            <a href="about.html">About us</a> |
+          <a href="contact.html">Contact Us</a> |
           <input type="text" placeholder="Search..">
             
       </nav>
 
-<div align="center">
-    <section>
+<div class="mainText">
    </p>
     <p>
     There is a few way to contact us:<br>
@@ -92,10 +113,16 @@
     </p>
     
     <p>
-    
-    </p></section></div>
+    Please let us know how we should improve our servies.<br>
+
+	<button class="link"><a href="contactForm.html" class="button">Feedback Here</a></button>
+    </p>
+
+</div>
 
 
-</body>
-
+		
+	   <footer>Immortal Cars Distributions LLC</footer>
+	</body>
 </html>
+
